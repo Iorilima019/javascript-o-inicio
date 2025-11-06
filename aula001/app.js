@@ -158,6 +158,14 @@ function mensagem(){
 mensagem()
 mensagem()
 
+function conta(n1, n2){
+    console.log(n1 + n2 * 4 )
+}
+
+function conta(horas, sal_hora){
+    console.log(horas * sal_hora)
+}
+conta(140, 75)
 /*
 Funções personalizadas em JavaScript são blocos de código reutilizáveis que executam tarefas específicas. Você pode criá-las usando declarações de função, expressões de função ou arrow functions. A sintaxe básica envolve usar a palavra-chave function, definir um nome, parênteses () para parâmetros e chaves {} para o corpo da função. As funções podem aceitar argumentos, retornar valores e ajudar a organizar o código, tornando-o mais modular e fácil de manter.
 */
